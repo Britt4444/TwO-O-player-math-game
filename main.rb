@@ -1,3 +1,6 @@
-require_relative 'Player'
-require_relative 'Game'
-require_relative 'Questions'
+require_relative 'player'
+require_relative 'game'
+require_relative 'question'
+
+game = Game.new
+game.run_game
